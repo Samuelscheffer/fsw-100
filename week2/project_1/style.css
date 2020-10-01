@@ -1,0 +1,29 @@
+h1 {
+    color: #006400 ;
+    font-family: Georgia;
+    text-align: center;
+}
+ .mystyle {
+     text-align: center;
+
+ }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#youmightalsolike { text-transform: uppercase;
+    
+}
+img { float: left; 
+padding-right: 10mm;
+}
+
+li:first-child {
+    color: salmon;
+
+}
+
+
+
