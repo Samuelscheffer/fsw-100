@@ -1,0 +1,39 @@
+ol, ul {
+    list-style: none;
+}
+#MainMenu {
+    margin: 10px;
+    width: 900px;
+    font-family: sans-serif;
+}
+#MainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+#MainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+#MainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+table, th, td, tr {
+    border: 1px solid black;
+}
+#questions {list-style: upper-roman;}
+
+#ridiculous {padding-top: 3cm;}
+
+footer{text-decoration: underline;
+text-align: center;}
+h2 {color: firebrick;}
+
+
+
