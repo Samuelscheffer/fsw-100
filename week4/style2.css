@@ -21,7 +21,7 @@ ol, ul {
 	color:#009;
 }
 #MainMenu a:hover {
-	background-color:#009;
+	background-color:rgb(1, 1, 7);
 	color:#fff;
 }
 table, th, td, tr {
@@ -35,5 +35,7 @@ footer{text-decoration: underline;
 text-align: center;}
 h2 {color: firebrick;}
 
+h1{color: orange}
 
+body {background-color: peachpuff;}
 
