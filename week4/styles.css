@@ -24,7 +24,8 @@ ol, ul {
 	background-color:#009;
 	color:#fff;
 }
-
+#nav{background-color: black; 
+	padding:50px;}
 h1 {
     text-align: center;
 }
