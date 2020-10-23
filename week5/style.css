@@ -1,55 +1,61 @@
-#one {
-    background-color: #f5c6d6 ;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
-   
-}
-#two { background-color: #ee2e84;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
-}
-#three{ background-color: #ee2e84;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
-}
-#four {
-    background-color: #ee2e84;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
-}
-#five{
-    background-color: #ee2e84;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
-}
-#six{
-    background-color: #85cfd8;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat (4,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template: auto;
 }
 
-#seven{
-    background-color: #85cfd8;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
+.one{
+    grid-column: 1 / span 4;
+    grid-row:1;
+    background-color: #f5c6d6;
 }
-#eight{
+
+.two{
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    background-color: #ee2e84;
+}
+
+.three{
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    background-color: #ee2e84;
+}
+
+.four{
+    grid-column: 3 / span 1;
+    grid-row: 2;
+    background-color: #ee2e84;
+}
+
+.five{
+    grid-column: 4 / span 1;
+    grid-row: 2;
+    background-color: #ee2e84;
+}
+
+.six{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    background-color: #85cfd8;
+}
+
+.seven{
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    background-color: #85cfd8;
+}
+
+.eight{
+    grid-column: 1 / span 3;
+    grid-row: 4;
     background-color: #8dc63f;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
 }
 
-#nine{
+.nine{
+    grid-column: 4 / span 1;
+    grid-row: 4;
     background-color: #e76e34;
-    padding: 50px;
-    height: 50px;
-    margin:50px;
 }
