@@ -1,0 +1,82 @@
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat (4,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template: auto;
+}
+
+.one{
+    grid-column: 1 / span 2;
+    grid-row:1;
+    background-color: #3d1ccf;
+}
+
+.two{
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    background-color: #26c24d;
+}
+
+.three{
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    background-color: #be3f1f;
+}
+
+.four{
+    grid-column: 2 / span 3;
+    grid-row: 2;
+    background-color: #337b88;
+}
+
+.five{
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    background-color: #e71295;
+    margin-bottom: 10px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat (4,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template: auto;
+}
+
+.alpha{
+    grid-column: 1 / span 4;
+    grid-row:1;
+    background-color: #3aee17;
+}
+
+.bravo{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    background-color: #450ae9;
+}
+
+.charlie{
+    grid-column: 3 / span 2;
+    grid-row: 2;
+    background-color: #0a4109;
+}
+
+.delta{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    background-color: #450ae9;
+}
+
+.echo{
+    grid-column: 3 / span 1;
+    grid-row: 3;
+    background-color: #862a5438;
+}
+
+.foxtrot{
+    grid-column: 4 / span 1;
+    grid-row: 3;
+    background-color: #19f024;
+}
