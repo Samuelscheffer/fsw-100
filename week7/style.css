@@ -15,10 +15,16 @@ h2 {color:black}
 
 h1{color: black}
 
+h1{ font-size: 16mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px #e2dfdf;
+}
+
 body {background-color:black;
 	font-family: 'Archivo Black', sans-serif;}
 
-h1, h2 {text-align: center;}
+h1, h2 {text-align: center;
+}
 
 .topnav {
 	overflow: hidden;
@@ -145,4 +151,20 @@ h1, h2 {text-align: center;}
            font-family: Georgia, 'Times New Roman', Times, serif;
            font-size: 18pt;
        }
+       #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 35%;
+        border-radius: 50%;
+        
+
+      }
+      #transition:hover {font-size: 15mm; 
+    }
+#p{background-color: lightgray;}
+
+      
+       
           
